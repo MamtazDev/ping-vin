@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 h1,
@@ -17,95 +17,114 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .row {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .col {
-  padding: 0;
+  padding: 0 !important;
 }
 
 ul {
-  /* list-style: none; */
-  padding: 0;
+  list-style: none !important;
+  padding: 0 !important;
 }
 
 ul li {
-  margin: 0;
+  margin: 0 !important;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .yellow {
-  color: #FDD74F;
+  color: #FDD74F !important;
 }
 
-.main_container {
-  width: 1920px;
-}
+/* .container {
+  max-width: 1920px !important;
+} */
 
-.white {
-  color: #FFF;
+.white_color {
+  color: #FFF !important;
 }
 
 .blue {
-  color: #06194A;
+  color: #06194A !important;
 }
 
 .black {
-  color: #000;
+  color: #000 !important;
 }
 
 .sky {
-  background-color: EAFCFF;
+  background-color: #EAFCFF !important;
 }
 
 .sky_dark {
-  background: #3ACCE1;
+  background: #3ACCE1 !important;
 }
 
 /* fonts */
 
 .fs_14 {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 .fs_16 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .fs_18 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .fs_20 {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .fs_24 {
-  font-size: 24px;
+  font-size: 24px !important;
 }
 
 .fs_32 {
-  font-size: 32px;
+  font-size: 32px !important;
 }
 
 .fs_48 {
-  font-size: 48px;
+  font-size: 48px !important;
 
 }
 
 .fs_65 {
-  font-size: 65px;
+  font-size: 65px !important;
 
 }
 
 /* buttons */
 button {
-  cursor: pointer;
+  cursor: pointer !important;
+  border: none;
 }
+
+.black2 {
+  color: #0C1518;
+}
+
+/* navbar */
+.contact_btn {
+  border-radius: 11px;
+  background: #FDD74F;
+  padding: 17px 39px 16px 39px;
+
+}
+.navbar-collapse{
+  text-align: center;
+}
+
+/* navbar */
+

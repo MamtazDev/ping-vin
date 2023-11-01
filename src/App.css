@@ -1,4 +1,8 @@
-/* responsive design */
-@media screen and(max-width:430px) {}
-@media screen and(max-width:768px) {}
-@media screen and(max-width:990px) {}
+
+@media (max-width:1024px) {
+  
+    .nav-link{
+       margin-bottom: 20px !important;
+     }
+     
+}
