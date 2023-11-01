@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.row {
+  padding: 0;
+}
+
+.col {
+  padding: 0;
+}
+
+ul {
+  /* list-style: none; */
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.yellow {
+  color: #FDD74F;
+}
+
+.main_container {
+  width: 1920px;
+}
+
+.white {
+  color: #FFF;
+}
+
+.blue {
+  color: #06194A;
+}
+
+.black {
+  color: #000;
+}
+
+.sky {
+  background-color: EAFCFF;
+}
+
+.sky_dark {
+  background: #3ACCE1;
+}
+
+/* fonts */
+
+.fs_14 {
+  font-size: 14px;
+}
+
+.fs_16 {
+  font-size: 16px;
+}
+
+.fs_18 {
+  font-size: 18px;
+}
+
+.fs_20 {
+  font-size: 20px;
+}
+
+.fs_24 {
+  font-size: 24px;
+}
+
+.fs_32 {
+  font-size: 32px;
+}
+
+.fs_48 {
+  font-size: 48px;
+
+}
+
+.fs_65 {
+  font-size: 65px;
+
+}
+
+/* buttons */
+button {
+  cursor: pointer;
+}
