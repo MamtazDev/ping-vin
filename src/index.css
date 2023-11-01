@@ -105,6 +105,15 @@ a {
 
 }
 
+/* margin */
+.mb_30 {
+  margin-bottom: 30px !important;
+}
+
+.mb_50 {
+  margin-bottom: 50px !important;
+}
+
 /* buttons */
 button {
   cursor: pointer !important;
@@ -122,9 +131,13 @@ button {
   padding: 17px 39px 16px 39px;
 
 }
-.navbar-collapse{
+
+.navbar-collapse {
   text-align: center;
 }
 
-/* navbar */
+.p_86 {
+  padding: 0 41px !important;
+}
 
+/* navbar */

@@ -1,0 +1,38 @@
+.banner_title {
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+.banner_bg {
+    background-color: #151846;
+    padding-top: 182px;
+    padding-bottom: 281px;
+}
+
+.banner_right {
+    border-radius: 15px;
+    background: #FFF;
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    text-align: center;
+}
+
+.banner_right h3 {
+    color: #06194A;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 40px !important;
+}
+
+.banner_right input {
+    width: 100% !important;
+    height: 45px;
+    border-radius: 7px;
+    border: 1px solid var(--07, #06194A);
+    margin-bottom: 30px;
+}
