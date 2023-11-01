@@ -1,0 +1,12 @@
+.img_about_2 {
+    border-radius: 11px;
+    border: 8px solid #FFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #FFF;
+}
+
+.about_wrapper2 {
+    background-color: #06194A;
+    margin-top: 140px;
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
