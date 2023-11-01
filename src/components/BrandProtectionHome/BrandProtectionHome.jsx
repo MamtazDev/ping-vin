@@ -1,18 +1,23 @@
 import React from "react";
 import brand from '../../assets/brand.png'
+import './BrandProtectionHome.css'
 const BrandProtectionHome = () => {
   return (
     <>
-     <div className="container brand_bg">
-     <h1 className="about_text ">
-        Brand <span className="yellow">Protection</span>
-      </h1>
-      <p>
-        Think your brand or products appears somewhere it should not be? We can
-        search and locate your specific brand in thousands of websites using our
-        in-house moderation tool and moderators.
-      </p>
-     </div>
+      <section className="brand_protection_wrapper section_padding">
+        <div className="container">
+          <div className="brand_protection text-center">
+            <h1 className="about_text mb-4">
+              Brand <span className="yellow">Protection</span>
+            </h1>
+            <p className="text-white fs-6">
+              Think your brand or products appears somewhere it should not be? We can
+              search and locate your specific brand in <br /> thousands of websites using our
+              in-house moderation tool and moderators.
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

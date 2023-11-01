@@ -4,7 +4,7 @@ import ContactUsButton from "../../Shared/ContactUsButton/ContactUsButton";
 
 const Banner = () => {
   return (
-    <div className="banner_bg">
+    <section className="banner_bg">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 mb-5 ">
@@ -37,7 +37,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

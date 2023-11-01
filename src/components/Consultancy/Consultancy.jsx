@@ -8,7 +8,7 @@ import ContactUsButton from "../../Shared/ContactUsButton/ContactUsButton";
 const Consultancy = () => {
   return (
     <>
-      <div className="container mt_140">
+      <div className="container section_padding pb-0">
         <div className="row align-items-center">
           <div className="col-lg-6">
             <h2 className="fs_48 about_text blue">Consultancy</h2>
