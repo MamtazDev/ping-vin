@@ -1,0 +1,42 @@
+.consultancy_small_text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.consultancy_right {
+    position: relative;
+}
+
+.time_design h1 {
+    color: var(--05, #FDD74F);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.time_design p {
+    color: var(--02, #FFF);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.time_design {
+    background-color: #06194A !important;
+    width: 131.897px;
+    height: 131.897px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 41%;
+    bottom: 40%;
+}

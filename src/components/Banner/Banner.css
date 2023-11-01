@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 45px;
+    padding:87px 45px;
     text-align: center;
 }
 
@@ -34,5 +34,10 @@
     height: 45px;
     border-radius: 7px;
     border: 1px solid var(--07, #06194A);
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+}
+.banner_right p{
+    font-style: normal;
+font-weight: 500;
+line-height: normal;
 }

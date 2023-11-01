@@ -6,8 +6,8 @@ const Banner = () => {
   return (
     <div className="banner_bg">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6 mb-5">
+        <div className="row align-items-center">
+          <div className="col-lg-6 mb-5 ">
             <h1 className="fs_65 banner_title white_color mb_30">
               The start-up specialized in mass
               <span className="yellow"> moderation.</span>
@@ -29,7 +29,7 @@ const Banner = () => {
           <div className="col-lg-5 banner_right">
             <h3 className="fs_32">Moderering Beta</h3>
             <input type="text" /> <br />
-            <ContactUsButton />
+            <button className="fs_16 black2 search_btn ">Search</button>
             <p className="p_86 mt-4 fs_14">
               No result found. either we do not handle this industry yet or you
               made a typo =)

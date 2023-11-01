@@ -41,13 +41,10 @@ a {
   text-decoration: none !important;
 }
 
+/* color */
 .yellow {
   color: #FDD74F !important;
 }
-
-/* .container {
-  max-width: 1920px !important;
-} */
 
 .white_color {
   color: #FFF !important;
@@ -68,6 +65,11 @@ a {
 .sky_dark {
   background: #3ACCE1 !important;
 }
+
+.black2 {
+  color: #0C1518;
+}
+
 
 /* fonts */
 
@@ -120,16 +122,25 @@ button {
   border: none;
 }
 
-.black2 {
-  color: #0C1518;
-}
 
 /* navbar */
 .contact_btn {
   border-radius: 11px;
   background: #FDD74F;
   padding: 17px 39px 16px 39px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 
+.search_btn {
+  border-radius: 11px;
+  background: #FDD74F;
+  padding: 13px 62px 12px 61px;
+
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .navbar-collapse {
