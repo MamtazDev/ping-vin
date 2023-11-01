@@ -144,6 +144,10 @@ button {
   text-align: center;
 }
 
+.pb_60 {
+  padding-bottom: 60px;
+}
+
 .p_86 {
   padding: 0 41px !important;
 }
