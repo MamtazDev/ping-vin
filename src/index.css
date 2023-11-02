@@ -126,6 +126,9 @@ a {
 .mb_50 {
   margin-bottom: 50px !important;
 }
+.mb_70 {
+  margin-bottom: 70px !important;
+}
 
 .mb_40 {
   margin-bottom: 40px;
@@ -137,6 +140,9 @@ a {
 
 .mt_20 {
   margin-top: 20px;
+}
+.mb_20 {
+  margin-bottom: 20px;
 }
 
 .mb_10 {

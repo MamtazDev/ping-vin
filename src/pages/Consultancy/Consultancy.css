@@ -160,6 +160,7 @@
     align-items: center;
     border-radius: 50%;
 }
+
 .icon_bg2 {
     background-color: #F6F8FF;
     width: 84px;
@@ -175,10 +176,70 @@
 
 /* pricing */
 
+.pricing_details p {
+    color: #0C1518;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
 
+.pricing_details h3 {
+    color: var(--07, #06194A);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 31.2px */
+}
 
+.pricing_card {
+    border-radius: 11px;
+    background: #FAFAFA;
+    padding: 40px 30px 32px;
+}
 
+.pricing_title {
+    color: var(--07, #06194A);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    text-align: center;
+}
 
+.pricing_btn {
+    padding: 18px 0px 17px 0px;
+    border-radius: 53px;
+    background: var(--05, #FDD74F);
+    width: 100%;
+}
 
+.price_number {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.price_access {
+    color: #0C1518;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
 
 /* pricing */

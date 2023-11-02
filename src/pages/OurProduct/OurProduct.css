@@ -1,0 +1,15 @@
+.box {
+    width: 8px;
+    height: 8px;
+    border-radius: 1px;
+    background: var(--04, #84AAB6);
+    display: inline-flex;
+    /* gap: 10px; */
+    margin-right: 12px;
+}
+
+.moderation_text p {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
