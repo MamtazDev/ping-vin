@@ -1,0 +1,184 @@
+.consultancy_section1 p {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.consultancy_section1 h1 {
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 62.4px */
+}
+
+.consultancy_section1 small {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* section 2 */
+.sitecheck_bg {
+    background-image: url('../../assets/c_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #06194A;
+    padding: 80px 0;
+}
+
+.site_card {
+    border-radius: 15px;
+    background: #FFF;
+    padding: 98px 60px 66px 60px;
+}
+
+.site_card h3 {
+    color: #06194A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.site_card p {
+    color: #0C1518;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 21px;
+}
+
+.site_card small {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5D6A6F;
+}
+
+.site_card h2 {
+    color: #06194A;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+
+    /* 41.6px */
+}
+
+
+.buy_now_btn {
+    border-radius: 53px;
+    background: #FDD74F;
+    padding: 18px 42px 17px 43px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.yellow_btn {
+    padding: 18px 60px 17px 60px;
+    border-radius: 53px;
+    background: #FDD74F;
+    color: #0C1518;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.upBtn {
+    position: absolute;
+    right: 27%;
+    top: -4%;
+}
+
+/* what can help  */
+
+.what_title p {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.what_title h1 {
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+.card_bg {
+    background: #FAFBFF;
+    border-radius: 7px;
+    padding: 40px 48px 51px;
+
+}
+
+.card_design {
+    border-radius: 7px;
+    padding: 40px 48px 51px;
+    border: 1px solid #E3F0F4;
+    background: #FFF;
+}
+
+.card_design:hover {
+    background: #FAFBFF;
+}
+
+.card_bg p,
+.card_design p {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card_bg,
+.card_design small {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.icon_bg {
+    background-color: #FDD74F;
+    width: 84px;
+    height: 84px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon_bg2 {
+    background-color: #F6F8FF;
+    width: 84px;
+    height: 84px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/* what can help  */
+
+/* pricing */
+
+
+
+
+
+
+
+/* pricing */

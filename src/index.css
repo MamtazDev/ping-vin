@@ -70,6 +70,10 @@ a {
   color: #0C1518;
 }
 
+.grey {
+  color: #5D6A6F;
+}
+
 /* fonts */
 
 .fs_14 {
@@ -114,9 +118,39 @@ a {
 .mb_50 {
   margin-bottom: 50px !important;
 }
-.mt_140{
+
+.mb_40 {
+  margin-bottom: 40px;
+}
+
+.mt_40 {
+  margin-top: 40px;
+}
+.mt_20 {
+  margin-top: 20px;
+}
+
+.mb_10 {
+  margin-bottom: 10px;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
+}
+
+.mt_140 {
   margin-top: 140px !important;
 }
+.mb_140 {
+  margin-bottom: 140px !important;
+}
+
+.mt_80 {
+  margin-top: 80px !important;
+}
+
+
+
 /* buttons */
 button {
   cursor: pointer !important;
