@@ -1,5 +1,16 @@
 footer {
-    padding-top: 387px;
     padding-bottom: 46px;
     background-color: #0C1518;
+}
+
+footer .footer_wrapper {
+    border-bottom: 1px solid #022530;
+}
+
+.footerPt1 {
+    padding-top: 200px;
+}
+
+.footerPt2 {
+    padding-top: 387px;
 }

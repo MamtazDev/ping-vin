@@ -7,7 +7,7 @@ const BrandProtectionHome = () => {
       <section className="brand_protection_wrapper section_padding">
         <div className="container">
           <div className="brand_protection text-center">
-            <h1 className="about_text mb-4">
+            <h1 className="fw_extrabold fs_48 text-white mb-4">
               Brand <span className="yellow">Protection</span>
             </h1>
             <p className="text-white fs-6">

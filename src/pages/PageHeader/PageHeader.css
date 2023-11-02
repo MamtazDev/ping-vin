@@ -2,14 +2,22 @@
     background-image: url('../../assets/about_us.png');
     background-repeat: no-repeat;
     background-position: center;
-    padding: 100px;
+    padding-top: 200px;
+    padding-bottom: 230px;
+
 }
 
-.about_text1{
+.about_text1 {
     color: var(--05, #FDD74F);
-font-family: Montserrat;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: 130%; /* 62.4px */
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+
+    /* 62.4px */
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: url(../../assets/right_arrwo.svg);
 }
