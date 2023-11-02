@@ -4,12 +4,13 @@ import arrow from "../../assets/yelloconsultIcon.png";
 const Pricing = () => {
   return (
     <>
-      <section className="mb_140 ">
+      <section className="mb_140 overflow-hidden">
         <div className="container">
-          <h2 className="pricing_title mb_70">Pricing</h2>
+          <h2 className="pricing_title mb_70" data-aos="fade-up" data-aos-delay="300">Pricing</h2>
           <div className="row">
+
             <div className="col-lg-4 mb-lg-0 mb-5">
-              <div className="pricing_card d-flex flex-column h-100">
+              <div className="pricing_card d-flex flex-column h-100" data-aos="fade-right" data-aos-delay="300">
                 <div className="pricing_main_conent">
                   <div className="pricing-header">
                     <div className="d-flex justify-content-between">
@@ -52,8 +53,9 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-4 mb-lg-0 mb-5">
-              <div className="pricing_card d-flex flex-column h-100">
+              <div className="pricing_card d-flex flex-column h-100" data-aos="fade-up" data-aos-delay="400">
                 <div className="pricing_main_conent flex-grow-1">
                   <div className="pricing-header">
                     <div className="d-flex justify-content-between">
@@ -88,8 +90,9 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-4 mb-lg-0 mb-5">
-              <div className="pricing_card d-flex flex-column h-100">
+              <div className="pricing_card d-flex flex-column h-100" data-aos="fade-left" data-aos-delay="500">
                 <div className="pricing_main_conent flex-grow-1">
                   <div className="pricing-header">
                     <div className="d-flex justify-content-between">

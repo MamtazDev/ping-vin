@@ -4,18 +4,21 @@ import brand from "../../assets/brand1.png";
 const UncoverBrand = () => {
   return (
     <>
-      <section className="about_wrapper section_padding pb-0 mb_140">
+      <section className="about_wrapper section_padding pb-0 mb_140 overflow-hidden">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
+              <div>
+
               <img className="img-fluid" src={brand} alt="" />
+              </div>
             </div>
             <div className="col-lg-6  offset-lg-1">
-              <h2 className="fs_48 about_text brand_text">
+              <h2 className="fs_48 about_text brand_text" data-aos="fade-up" data-aos-delay="300">
                 Uncover Brand <span>Discrepancies with Precision</span>
               </h2>
               <div className="about_small_text black mt_40">
-                <p>
+                <p data-aos="fade-up" data-aos-delay="400">
                   Are you worried that your brand or products might be making
                   unsanctioned appearances across the vast online landscape?
                   Don't leave it to chance – we've got the solution. <br /> At

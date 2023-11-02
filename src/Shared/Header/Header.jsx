@@ -26,7 +26,7 @@ const Header = () => {
               </span>
             </button>
             <div
-              className="collapse navbar-collapse pb-lg-0 pb-5"
+              className="collapse navbar-collapse pb-lg-0"
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">

@@ -6,15 +6,15 @@ import c3 from "../../assets/cw3.png";
 const WhatCanHelp = () => {
   return (
     <>
-      <section className="text-center mt_140 mb_140">
+      <section className="text-center mt_140 mb_140 overflow-hidden">
         <div className="container">
           <div className="what_title">
-            <p className="blue fs_20">WHAT</p>
-            <h1 className="yellow fs_48">WE CAN HELP YOU WITH </h1>
+            <p className="blue fs_20" data-aos="fade-up" data-aos-delay="300">WHAT</p>
+            <h1 className="yellow fs_48" data-aos="fade-up" data-aos-delay="400">WE CAN HELP YOU WITH </h1>
           </div>
           <div className="row">
             <div className="col-lg-4">
-              <div className="card_design mb-lg-0 mb-4">
+              <div className="card_design mb-lg-0 mb-4" data-aos="fade-right">
                 <div className="icon_bg2">
                   <img className="img-fluid" src={c1} alt="send-icon" />
                 </div>
@@ -29,7 +29,7 @@ const WhatCanHelp = () => {
 
             <div className="col-lg-4">
 
-              <div className="card_design mb-lg-0 mb-4">
+              <div className="card_design mb-lg-0 mb-4" data-aos="fade-up">
 
                 <div className="icon_bg2">
                   <img className="img-fluid" src={c2} alt="send-icon" />
@@ -47,7 +47,7 @@ const WhatCanHelp = () => {
             </div>
 
             <div className="col-lg-4">
-              <div className="card_design mb-lg-0 mb-4">
+              <div className="card_design mb-lg-0 mb-4" data-aos="fade-left">
                 <div className="icon_bg2">
                   <img className="img-fluid" src={c3} alt="send-icon" />
                 </div>

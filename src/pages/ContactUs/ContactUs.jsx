@@ -10,20 +10,20 @@ const ContactUs = () => {
     <>
       <PageHeader pageHeaderName={"Contact Us"} />
 
-      <div className="container mb_140">
+      <div className="container mb_140 overflow-hidden">
         <div className="row align-items-start">
           <div className="col-lg-5 mb-5">
             <div className="about_text pt-0">
-              <p className="fs_48">
+              <p className="fs_48" data-aos="fade-up" data-aos-delay="300">
                 Get in <span>Touch</span>
               </p>
             </div>
-            <small className="common_text">
+            <small className="common_text" data-aos="fade-up" data-aos-delay="400">
               Get in Touch! Contact with us Get in Touch! Contact with us
             </small>
 
             <div className="contact_details">
-              <div className="d-flex gap-3 justify-content-center align-items-center">
+              <div className="d-flex gap-3 justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="500">
                 <img src={location} alt="" />
                 <div>
                   <h5>Address</h5>
@@ -32,24 +32,28 @@ const ContactUs = () => {
                   </p>
                 </div>
               </div>
-              <div className="d-flex gap-3 justify-content-center align-items-center">
+
+              <div className="d-flex gap-3 justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="600">
                 <img src={phone} alt="" />
                 <div>
                   <h5>Call Us Today</h5>
                   <p className="common_text">(+001) 123-456-7890</p>
                 </div>
               </div>
-              <div className="d-flex gap-3 justify-content-center align-items-center">
+
+              <div className="d-flex gap-3 justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="700">
                 <img src={mail} alt="" />
                 <div>
                   <h5>Email Us</h5>
                   <p className="common_text">company@gmail.com</p>
                 </div>
               </div>
+
             </div>
           </div>
+
           <div className="col-lg-7">
-            <div className="contact_form">
+            <div className="contact_form" data-aos="fade-left">
               <h3 className="fs_32 blue mb_40">Send Us a Message</h3>
               <form>
                 <div className=" row">

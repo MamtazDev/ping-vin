@@ -221,8 +221,8 @@
     transition: all linear 0.1s;
 }
 
-.pricing_btn:hover {
-    background: var(--05, #f8e395);
+.pricing_btn:hover{
+        background: var(--05, #f8e395);
 }
 
 .price_number {

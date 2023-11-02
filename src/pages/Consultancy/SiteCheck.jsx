@@ -4,12 +4,12 @@ import arrow from "../../assets/yelloconsultIcon.png";
 const SiteCheck = () => {
   return (
     <>
-      <section className="sitecheck_bg mt_140">
+      <section className="sitecheck_bg mt_140 overflow-hidden">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 ">
 
-              <div className="card_detils position-relative mb-5 mb-lg-0">
+              <div className="card_detils position-relative mb-5 mb-lg-0" data-aos="fade-right">
                 <div className="upBtn">
                   <button className="yellow_btn">Mainstream Media</button>
                 </div>
@@ -51,7 +51,7 @@ const SiteCheck = () => {
 
             <div className="col-lg-6">
 
-              <div className="card_detils position-relative mb-5 mb-lg-0">
+              <div className="card_detils position-relative mb-5 mb-lg-0" data-aos="fade-left">
                 <div className="upBtn">
                   <button className="yellow_btn">Adult Website</button>
                 </div>

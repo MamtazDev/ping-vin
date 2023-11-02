@@ -3,12 +3,12 @@ import React from "react";
 const Succeed = () => {
   return (
     <>
-      <section className="mb_140">
+      <section className="mb_140 overflow-hidden">
         <div className="container text-center">
           <div className="what_title">
-            <p className="blue fs_20">WHY</p>
-            <h1 className="yellow fs_48 mb_30">HELP YOU SUCCEED ABROAD </h1>
-            <small>
+            <p className="blue fs_20" data-aos="fade-up" data-aos-delay="300">WHY</p>
+            <h1 className="yellow fs_48 mb_30" data-aos="fade-up" data-aos-delay="400">HELP YOU SUCCEED ABROAD </h1>
+            <small data-aos="fade-up" data-aos-delay="500">
               The user experience of your website significantly impacts
               conversion rates. Professional localisation, including presenting
               products in <br /> the local language and cultural context, enhances the

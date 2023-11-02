@@ -1,3 +1,7 @@
+.about_wrapper{
+    overflow: hidden;
+}
+
 .img_about_2 {
     border-radius: 11px;
     /* border: 8px solid #FFF; */

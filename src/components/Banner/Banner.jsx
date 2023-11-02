@@ -8,11 +8,12 @@ const Banner = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 mb-5 " data-aos="fade-right">
-            <h1 className="fs_65 banner_title white_color mb_30">
+            <h1 className="fs_65 banner_title white_color mb_30" data-aos="fade-up" data-aos-delay="300">
               The start-up specialized in mass
               <span className="yellow"> moderation.</span>
             </h1>
-            <p className="white_color mb-2">
+
+            <p className="white_color mb-2" data-aos="fade-up" data-aos-delay="400">
               We are the start-up who build a moderation engine capable of
               flagging millions of illegal websites. With the goal of protecting
               our communities and children from harmful and disturbing content,

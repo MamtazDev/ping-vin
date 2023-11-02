@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <div className="mb-4 mb-lg-0" data-aos="fade-right">
+              <div className="mb-4 mb-lg-0">
 
                 <img className="img-fluid" src={about} alt="" />
               </div>
@@ -49,11 +49,11 @@ const AboutUs = () => {
           <div className="row align-items-center">
             <div className="col-lg-5">
               <div className="mb-4 mb-lg-0">
-                <h2 className="fs_48 yellow about_text2 mt-2 pt-0">
+                <h2 className="fs_48 yellow about_text2 mt-2 pt-0" data-aos="fade-up" data-aos-delay="100">
                   Our Dedication to a Safer Online World
                 </h2>
                 <div className="about_small_text  black mt_40">
-                  <p className="white_color">
+                  <p className="white_color" data-aos="fade-up" data-aos-delay="200">
                     At Moderering, we are more than just a service provider; we
                     are advocates for a safer and more positive digital landscape.
                     We understand that the internet is the lifeblood of countless
@@ -74,22 +74,23 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+
       <section className="about_wrapper mt_140">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <div className="mb-4 mb-lg-0">
+              <div className="mb-4 mb-lg-0" data-aos="fade-right">
 
                 <img className="img-fluid img_about_2" src={about3} alt="" />
               </div>
             </div>
             <div className="col-lg-6 offset-lg-1 sec3_about">
               <div className="mb-4 mb-lg-0">
-                <h2 className="fs_48 about_text mt-2 pt-0 ">
+                <h2 className="fs_48 about_text mt-2 pt-0 " data-aos="fade-up" data-aos-delay="100">
                   A Game-Changing <span>Solution</span>
                 </h2>
                 <div className="about_small_text black">
-                  <p className="black fs_20">
+                  <p className="black fs_20" data-aos="fade-up" data-aos-delay="200">
                     We're proud to introduce a groundbreaking solution that is
                     revolutionizing content moderation. Our innovative technology
                     empowers governmental institutions to swiftly and accurately
@@ -111,7 +112,7 @@ const AboutUs = () => {
 
       <section className="about_wrapper3 text-center">
         <div className="container">
-          <p className="white_color mb-5 sec4_about">
+          <p className="white_color mb-5 sec4_about" data-aos="fade-up" data-aos-delay="300">
             Today, we extend our hand to you, urging you to get in touch with us
             to explore the full spectrum of services we offer. Together, we can
             forge a partnership that will redefine your digital landscape,

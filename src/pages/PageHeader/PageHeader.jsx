@@ -6,7 +6,7 @@ const PageHeader = ({ pageHeaderName, pageHeaderName2 }) => {
   const currentLocation = location.pathname.slice(1);
   return (
     <>
-      <div className="page_banner text-center white_color">
+      <div className="page_banner text-center white_color overflow-hidden">
         <h1 className="about_text1 mb-3">
           {pageHeaderName} <span className="white_color">{pageHeaderName2}</span>
         </h1>

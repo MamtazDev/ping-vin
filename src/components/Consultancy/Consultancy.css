@@ -40,3 +40,9 @@
     right: 41%;
     bottom: 40%;
 }
+
+@media(max-width: 550px){
+    .time_design {
+        right: 31%;
+    }
+}

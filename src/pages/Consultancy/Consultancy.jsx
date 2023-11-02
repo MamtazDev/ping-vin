@@ -14,12 +14,12 @@ const Consultancy = () => {
   return (
     <>
       <PageHeader pageHeaderName={"Consultancy"} />
-      <section className="text-center">
+      <section className="text-center overflow-hidden">
         <div className="container">
           <div className="consultancy_section1">
-            <p className="blue fs_20 mb_10">OUR Moderation SPECIALISTS</p>
-            <h1 className="yellow fs_48 mb_30">HELP YOU STAY ETHICAL</h1>
-            <small className="fs_16">
+            <p className="blue fs_20 mb_10" data-aos="fade-up" data-aos-delay="300">OUR Moderation SPECIALISTS</p>
+            <h1 className="yellow fs_48 mb_30" data-aos="fade-up" data-aos-delay="400">HELP YOU STAY ETHICAL</h1>
+            <small className="fs_16" data-aos="fade-up" data-aos-delay="500">
               Entering a new market without localisation makes it difficult to
               compete with local businesses, as understanding the local culture,{" "}
               <br />

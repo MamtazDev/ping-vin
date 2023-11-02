@@ -12,17 +12,17 @@ const Consultancy = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="mb-4 mb-lg-0">
-              <h2 className="fs_48 about_text blue" data-aos="fade-up">Consultancy</h2>
+              <h2 className="fs_48 about_text blue" data-aos="fade-up" data-aos-delay="300">Consultancy</h2>
               <div className="consultancy_small_text black" data-aos="fade-up">
-              <p>
+                <p data-aos="fade-up" data-aos-delay="400">
                 <img src={yellowicon} className="me-1" alt="" /> Helping Private
                 and Governmental agencies assess the legality of a website.
               </p>
-              <p>
+              <p data-aos="fade-up" data-aos-delay="500">
                 <img src={yellowicon} className="me-1" alt="" /> Providing Site
                 checks and consulting services.
               </p>
-              <p>
+              <p data-aos="fade-up" data-aos-delay="600">
                 <img src={yellowicon} className="me-1" alt="" /> Go to the
                 contact page to get in touch with the correct service.
               </p>

@@ -6,9 +6,9 @@ import w4 from "../../assets/w4.png";
 const WhatWeOffer = () => {
   return (
     <>
-      <section className="text-center ">
+      <section className="text-center overflow-hidden">
         <div className="about_text">
-          <p className="fs_48 mb_70">
+          <p className="fs_48 mb_70" data-aos="fade-up" data-aos-delay="300">
             What We <span>Offer</span>
           </p>
         </div>
@@ -16,7 +16,7 @@ const WhatWeOffer = () => {
         {/* card */}
         <div className="row">
           <div className="col-lg-3">
-            <div className="mb-4 mb-lg-0">
+            <div className="mb-4 mb-lg-0" data-aos="fade-right">
               <div className="whatweoffer_card card1">
               <img src={w1} alt="" />
               <p>
@@ -26,16 +26,18 @@ const WhatWeOffer = () => {
             </div>
             </div>
           </div>
+
           <div className="col-lg-3">
-            <div className="mb-4 mb-lg-0">
+            <div className="mb-4 mb-lg-0 h-100" data-aos="fade-up">
               <div className="whatweoffer_card card2">
               <img src={w2} alt="" />
               <p>Expert Moderators</p>
             </div>
             </div>
           </div>
+
           <div className="col-lg-3">
-            <div className="mb-4 mb-lg-0">
+            <div className="mb-4 mb-lg-0" data-aos="fade-down">
               <div className="whatweoffer_card card3">
               <img src={w3} alt="" />
               <p>
@@ -45,8 +47,9 @@ const WhatWeOffer = () => {
             </div>
             </div>
           </div>
+
           <div className="col-lg-3">
-            <div className="mb-4 mb-lg-0">
+            <div className="mb-4 mb-lg-0" data-aos="fade-left">
               <div className="whatweoffer_card card4">
               <img src={w4} alt="" />
               <p>
@@ -57,6 +60,7 @@ const WhatWeOffer = () => {
             </div>
             </div>
           </div>
+
         </div>
       </section>
     </>
