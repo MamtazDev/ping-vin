@@ -14,7 +14,7 @@ const ContactUs = () => {
         <div className="row align-items-start">
           <div className="col-lg-5 mb-5">
             <div className="about_text pt-0">
-              <p className="fs_48">
+              <p className="fs_48 mb_20">
                 Get in <span>Touch</span>
               </p>
             </div>
