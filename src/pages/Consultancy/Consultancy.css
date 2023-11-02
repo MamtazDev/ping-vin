@@ -51,6 +51,7 @@
     display: flex;
     gap: 12px;
     margin-bottom: 21px;
+    align-items: center;
 }
 
 .site_card small {
@@ -94,8 +95,9 @@
 
 .upBtn {
     position: absolute;
-    right: 27%;
+    left: 50%;
     top: -4%;
+    transform: translateX(-50%);
 }
 
 /* what can help  */
@@ -127,6 +129,7 @@
     padding: 40px 48px 51px;
     border: 1px solid #E3F0F4;
     background: #FFF;
+    transition: all linear 0.1s;
 }
 
 .card_design:hover {
@@ -150,16 +153,6 @@
 
 }
 
-.icon_bg {
-    background-color: #FDD74F;
-    width: 84px;
-    height: 84px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
 
 .icon_bg2 {
     background-color: #F6F8FF;
@@ -170,6 +163,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    transition: all linear 0.1s;
+}
+
+.card_design:hover .icon_bg2 {
+    background-color: #FDD74F;
 }
 
 /* what can help  */
@@ -186,6 +184,7 @@
     display: flex;
     gap: 12px;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .pricing_details h3 {
@@ -219,6 +218,11 @@
     border-radius: 53px;
     background: var(--05, #FDD74F);
     width: 100%;
+    transition: all linear 0.1s;
+}
+
+.pricing_btn:hover {
+    background: var(--05, #f8e395);
 }
 
 .price_number {
