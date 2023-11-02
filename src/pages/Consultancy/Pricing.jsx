@@ -52,7 +52,6 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
-
             <div className="col-lg-4 mb-lg-0 mb-5">
               <div className="pricing_card d-flex flex-column h-100">
                 <div className="pricing_main_conent flex-grow-1">

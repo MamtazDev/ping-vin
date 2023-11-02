@@ -9,6 +9,7 @@ import c5 from "../../assets/c5.png";
 import SiteCheck from "./SiteCheck";
 import WhatCanHelp from "./WhatCanHelp";
 import Pricing from "./Pricing";
+import Succeed from "./Succeed";
 const Consultancy = () => {
   return (
     <>
@@ -53,6 +54,7 @@ const Consultancy = () => {
       <SiteCheck />
       <WhatCanHelp />
       <Pricing />
+      <Succeed />
     </>
   );
 };
