@@ -4,34 +4,121 @@ import arrow from "../../assets/yelloconsultIcon.png";
 const Pricing = () => {
   return (
     <>
-      <section>
+      <section className="mb_140 ">
         <div className="container">
+          <h2 className="pricing_title mb_70">Pricing</h2>
           <div className="row">
-            <div className="col-lg-4">
-              {/* top */}
-              <div className="d-flex justify-content-between">
-                <h3>€889</h3>
-                <p>PRO</p>
+            <div className="col-lg-4 mb-lg-0 mb-5">
+              <div className="pricing_card d-flex flex-column h-100">
+                <div className="pricing_main_conent">
+                  <div className="pricing-header">
+                    <div className="d-flex justify-content-between">
+                      <h3 className="yellow price_number">€889</h3>
+                      <p className="price_access">PRO</p>
+                    </div>
+                    <hr />
+                  </div>
+
+                  <div className="pricing_details_wrapper">
+                    <div className="pricing_details">
+                      <h3 className="mb_30">ANNUAL Subscription</h3>
+                      <p>
+                        <img src={arrow} alt="" />
+                        Full Access to the Moderation DataBase{" "}
+                      </p>
+                      <p>
+                        <img src={arrow} alt="" />
+                        Dedicated Moderator
+                      </p>
+                      <p>
+                        <img src={arrow} alt="" />
+                        Unlimited Site Check
+                      </p>
+                      <p style={{ marginBottom: "26px" }}>
+                        <img src={arrow} alt="" />
+                        Trainings & Consultancy
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="pricing_btn_wrapper">
+                  <small>
+                    Local terms & conditions in high-quality language, and easy
+                    access to information, will help customers perceive your
+                    webshop as trustworthy.
+                  </small>
+                  <button className="pricing_btn mt_40">Buy Now</button>
+                </div>
               </div>
-              <hr />
-              <div className="site_card">
-                <h3 className="mb_40">SITE CHECK</h3>
-                <p>
-                  <img src={arrow} alt="" />
-                  Evaluation of the website Legality
-                </p>
-                <p>
-                  <img src={arrow} alt="" />
-                  Localization of your brand presence on the website
-                </p>
-                <p>
-                  <img src={arrow} alt="" />
-                  Incriminating materials provided: Screenshots, videos, links
-                </p>
-                <p style={{ marginBottom: "40px" }}>
-                  <img src={arrow} alt="" />
-                  Thorough report by moderation specialists
-                </p>
+            </div>
+
+            <div className="col-lg-4 mb-lg-0 mb-5">
+              <div className="pricing_card d-flex flex-column h-100">
+                <div className="pricing_main_conent flex-grow-1">
+                  <div className="pricing-header">
+                    <div className="d-flex justify-content-between">
+                      <h3 className="yellow price_number">€999</h3>
+                      <p className="price_access">BASIC</p>
+                    </div>
+                    <hr />
+                  </div>
+
+                  <div className="pricing_details_wrapper">
+                    <div className="pricing_details">
+                      <h3 className="mb_30">6 MONTH Subscription</h3>
+                      <p>
+                        <img src={arrow} alt="" />
+                        Full Access to the Moderation DataBase{" "}
+                      </p>
+                      <p>
+                        <img src={arrow} alt="" />
+                        Dedicated Moderator
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="pricing_btn_wrapper">
+                  <small>
+                    Local terms & conditions in high-quality language, and easy
+                    access to information, will help customers perceive your
+                    webshop as trustworthy.
+                  </small>
+                  <button className="pricing_btn mt_40">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 mb-lg-0 mb-5">
+              <div className="pricing_card d-flex flex-column h-100">
+                <div className="pricing_main_conent flex-grow-1">
+                  <div className="pricing-header">
+                    <div className="d-flex justify-content-between">
+                      <h3 className="yellow price_number">€1200</h3>
+                      <p className="price_access">TEST</p>
+                    </div>
+                    <hr />
+                  </div>
+
+                  <div className="pricing_details_wrapper">
+                    <div className="pricing_details">
+                      <h3 className="mb_30">1 MONTH TEST</h3>
+                      <p>
+                        <img src={arrow} alt="" />
+                        Full Access to the Moderation DataBase{" "}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="pricing_btn_wrapper">
+                  <small>
+                    Local terms & conditions in high-quality language, and easy
+                    access to information, will help customers perceive your
+                    webshop as trustworthy.
+                  </small>
+                  <button className="pricing_btn mt_40">Buy Now</button>
+                </div>
               </div>
             </div>
           </div>
