@@ -4,7 +4,7 @@ import './BrandProtectionHome.css'
 const BrandProtectionHome = () => {
   return (
     <>
-      <section className="brand_protection_wrapper section_padding">
+      <section className="brand_protection_wrapper section_padding" data-aos="fade-up">
         <div className="container">
           <div className="brand_protection text-center">
             <h1 className="fw_extrabold fs_48 text-white mb-4">

@@ -7,11 +7,11 @@ const OurProduct = () => {
     <section className="our_product">
       <div className="container">
         <div className="section_heading text-center pb_60">
-          <h1 className="about_text mb-4">
+          <h1 className="about_text mb-4" data-aos="fade-up">
             Our <span className="yellow">Product</span>
           </h1>
 
-          <p className="fs-6 fw-medium">
+          <p className="fs-6 fw-medium" data-aos="fade-up">
             We have built a moderation engine that can detect millions of
             illegal websites without needing a human to look at disturbing{" "}
             <br /> content. This engine also helps our highly trained moderators

@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <div className="mb-4 mb-lg-0">
+              <div className="mb-4 mb-lg-0" data-aos="fade-right">
 
                 <img className="img-fluid" src={about} alt="" />
               </div>
@@ -22,11 +22,11 @@ const AboutUs = () => {
 
             <div className="col-lg-6 offset-lg-1 sec1_about">
               <div className="mb-4 mb-lg-0">
-                <p className="fs_20 blue">WHO WE ARE</p>
-                <h2 className="fs_48 about_text mt-2 pt-0 mb_40">
+                <p className="fs_20 blue" data-aos="fade-up" data-aos-delay="100">WHO WE ARE</p>
+                <h2 className="fs_48 about_text mt-2 pt-0 mb_40" data-aos="fade-up" data-aos-delay="200">
                   Welcome to <span>Moderering</span>
                 </h2>
-                <div className="">
+                <div className="" data-aos="fade-up" data-aos-delay="300">
                   <small>
                     Your unwavering partner in cutting-edge content moderation
                     solutions. At Moderering, we hold a steadfast belief that a

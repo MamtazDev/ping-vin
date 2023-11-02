@@ -12,9 +12,8 @@ const Consultancy = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="mb-4 mb-lg-0">
-
-            <h2 className="fs_48 about_text blue">Consultancy</h2>
-            <div className="consultancy_small_text black">
+              <h2 className="fs_48 about_text blue" data-aos="fade-up">Consultancy</h2>
+              <div className="consultancy_small_text black" data-aos="fade-up">
               <p>
                 <img src={yellowicon} className="me-1" alt="" /> Helping Private
                 and Governmental agencies assess the legality of a website.
@@ -33,7 +32,7 @@ const Consultancy = () => {
           </div>
           <div className="col-lg-6">
 
-            <div className="consultancy_right mb-4 mb-lg-0">
+            <div className="consultancy_right mb-4 mb-lg-0" data-aos="fade-left">
               <img className="img-fluid" src={c1} alt="" />
 
               <div className="time_design">

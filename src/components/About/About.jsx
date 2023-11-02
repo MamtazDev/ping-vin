@@ -7,17 +7,17 @@ const About = () => {
       <section className="about_wrapper section_padding pb-0">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
               <div className="mb-4 mb-lg-0">
                 <img className="img-fluid" src={about} alt="" />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="mb-4 mb-lg-0">
-                <h2 className="fs_48 about_text">
+                <h2 className="fs_48 about_text" data-aos="fade-up">
                   About <span>Us</span>
                 </h2>
-                <div className="about_small_text black">
+                <div className="about_small_text black" data-aos="fade-up">
                   <p>
                     Welcome to Moderering, your trusted partner in content
                     moderation solutions. At Moderering, we believe that a safe and
