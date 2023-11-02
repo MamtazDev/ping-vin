@@ -17,15 +17,15 @@ h4,
 h5,
 h6,
 p {
-  margin: 0 !important;
+  margin: 0;
 }
 
 .row {
-  padding: 0 !important;
+  padding: 0;
 }
 
 .col {
-  padding: 0 !important;
+  padding: 0;
 }
 
 /* ul {

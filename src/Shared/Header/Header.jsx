@@ -2,15 +2,16 @@ import React from "react";
 import "./Header.css";
 import logo from "../../assets/logo.png";
 import ContactUsButton from "../ContactUsButton/ContactUsButton";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
       <div className="header">
         <nav className="navbar navbar-expand-lg white">
           <div className="container">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/">
               <img src={logo} alt="" />
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -30,30 +31,30 @@ const Header = () => {
             >
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link active white_color fs_18 px-4"
                     aria-current="page"
-                    href="#"
+                    to="/about"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link white_color fs_18 px-4" href="#">
+                  <Link className="nav-link white_color fs_18 px-4" to="/consultancy">
                     Consultancy
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link white_color fs_18 px-4" href="#">
+                  <Link className="nav-link white_color fs_18 px-4" to="/branprotection">
                     Brand Protection
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link white_color fs_18 px-4" href="#">
+                  <Link className="nav-link white_color fs_18 px-4" to="/ourProduct">
                     Our Product
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <form className="d-flex justify-content-center" role="search">

@@ -17,13 +17,13 @@ const AboutUs = () => {
               <img className="img-fluid" src={about} alt="" />
             </div>
             <div className="col-lg-1"></div>
-            <div className="col-lg-6">
-              <p>WHO WE ARE</p>
-              <h2 className="fs_48 about_text mt-2 pt-0">
+            <div className="col-lg-6 sec1_about">
+              <p className="fs_20 blue">WHO WE ARE</p>
+              <h2 className="fs_48 about_text mt-2 pt-0 mb_40">
                 Welcome to <span>Moderering</span>
               </h2>
-              <div className="about_small_text black">
-                <p>
+              <div className="">
+                <small>
                   Your unwavering partner in cutting-edge content moderation
                   solutions. At Moderering, we hold a steadfast belief that a
                   safe and positive online environment is not just a luxury but
@@ -32,7 +32,7 @@ const AboutUs = () => {
                   them to uphold the highest standards of user-generated content
                   through the provision of comprehensive and highly efficient
                   moderation services.
-                </p>
+                </small>
               </div>
             </div>
           </div>
@@ -43,10 +43,10 @@ const AboutUs = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <h2 className="fs_48 about_text mt-2 pt-0">
+              <h2 className="fs_48 yellow about_text2 mt-2 pt-0">
                 Our Dedication to a Safer Online World
               </h2>
-              <div className="about_small_text black">
+              <div className="about_small_text  black mt_40">
                 <p className="white_color">
                   At Moderering, we are more than just a service provider; we
                   are advocates for a safer and more positive digital landscape.
@@ -72,8 +72,8 @@ const AboutUs = () => {
               <img className="img-fluid img_about_2" src={about3} alt="" />
             </div>
             <div className="col-lg-1"></div>
-            <div className="col-lg-6">
-              <h2 className="fs_48 about_text mt-2 pt-0">
+            <div className="col-lg-6 sec3_about">
+              <h2 className="fs_48 about_text mt-2 pt-0 ">
                 A Game-Changing <span>Solution</span>
               </h2>
               <div className="about_small_text black">
@@ -96,9 +96,9 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section className="about_wrapper2 text-center">
+      <section className="about_wrapper3 text-center">
         <div className="container">
-          <p className="white_color mb-5">
+          <p className="white_color mb-5 sec4_about">
             Today, we extend our hand to you, urging you to get in touch with us
             to explore the full spectrum of services we offer. Together, we can
             forge a partnership that will redefine your digital landscape,
