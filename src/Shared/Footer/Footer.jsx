@@ -12,12 +12,12 @@ return (
         <div className="container">
             <div className="row">
                 <div className="col-lg-3">
-                    <div className="nav_logo">
+                    <div className="nav_logo mb-5 mb-lg-0">
                         <img src={footerLogo} alt="footer-logo" />
                     </div>
                 </div>
                 <div className="col-lg-3">
-                    <div className="footer_nav">
+                    <div className="footer_nav mb-5 mb-lg-0">
                         <div className="footer_header">
                             <h3 className='fs-5 fw-semibold text-white'>
                                 Link
@@ -53,7 +53,7 @@ return (
                     </div>
                 </div>
                 <div className="col-lg-3">
-                    <div className="footer_nav">
+                    <div className="footer_nav mb-5 mb-lg-0">
                         <div className="footer_header">
                             <h3 className='fs-5 fw-semibold text-white'>
                                 Support
@@ -76,7 +76,7 @@ return (
                     </div>
                 </div>
                 <div className="col-lg-3">
-                    <div className="footer_nav">
+                    <div className="footer_nav mb-5 mb-lg-0">
                         <div className="footer_header">
                             <h3 className='fs-5 fw-semibold text-white'>
                                 Contact

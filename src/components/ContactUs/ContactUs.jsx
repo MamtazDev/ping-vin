@@ -10,7 +10,7 @@ const ContactUs = () => {
                 <div className="contact_us_wrapper">
                     <div className="contact_us_main">
                         <div className="contact_us_left">
-                            <img src={contactUsImg} alt="image" />
+                            <img className='img-fluid' src={contactUsImg} alt="image" />
                         </div>
 
                         <div className="contact_us_right">
@@ -20,14 +20,14 @@ const ContactUs = () => {
                                 </h1>
                                 <form action="">
                                     <div className="name mb-3">
-                                        <input type="text" placeholder='Enter your name' />
+                                        <input className='w-100' type="text" placeholder='Enter your name' />
                                     </div>
                                     <div className='e_mail mb-3'>
-                                        <input type="mail" placeholder='Enter your email address' />
+                                        <input className='w-100' type="mail" placeholder='Enter your email address' />
                                     </div>
 
                                     <div className='text_area'>
-                                        <textarea name="" id="" cols="30" rows="10" placeholder='Type here...'></textarea>
+                                        <textarea className='w-100' name="" id="" cols="30" rows="10" placeholder='Type here...'></textarea>
                                     </div>
 
                                 </form>
