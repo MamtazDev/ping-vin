@@ -24,9 +24,8 @@ const Banner = () => {
             <br />
             <ContactUsButton />
           </div>
-          <div className="col-lg-1"></div>
 
-          <div className="col-lg-5 banner_right">
+          <div className="col-lg-5 offset-lg-1 banner_right">
             <h3 className="fs_32">Moderering Beta</h3>
             <input type="text" /> <br />
             <button className="fs_16 black2 search_btn ">Search</button>

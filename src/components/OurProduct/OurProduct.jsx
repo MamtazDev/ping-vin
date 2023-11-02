@@ -19,14 +19,16 @@ const OurProduct = () => {
                     {
                         ourProductData.map((productInfo, index) => (
                             <div className='col-lg-4' key={index}>
-                                <div className="product_card">
-                                    <div>
+                                <div className="product_card mb-4 mb-lg-0">
+                                    <div className='product_img'>
                                         <img src={productInfo.icon} alt="icon" />
                                     </div>
-                                    <h4>
+
+                                    <h4 className='fs-4 fw-semibold mb-3'>
                                         {productInfo.productName}
                                     </h4>
-                                    <p>
+
+                                    <p className='fs-6 fw-normal'>
                                         {
                                             productInfo.productInfo
                                         }

@@ -28,10 +28,10 @@ p {
   padding: 0 !important;
 }
 
-ul {
+/* ul {
   list-style: none !important;
   padding: 0 !important;
-}
+} */
 
 ul li {
   margin: 0 !important;
@@ -70,6 +70,10 @@ a {
   color: #0C1518;
 }
 
+.bg_yellow{
+    background-color: #FDD74F
+}
+
 /* fonts */
 
 .fs_14 {
@@ -104,6 +108,10 @@ a {
 .fs_65 {
   font-size: 65px !important;
 
+}
+
+.fw_extrabold{
+font-weight: 800;
 }
 
 /* margin */
