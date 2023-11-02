@@ -22,7 +22,7 @@ const Banner = () => {
               engine will be available for public use on our upcoming website
               for 2024.
             </p>
-            <br />
+
             <ContactUsButton />
           </div>
 
