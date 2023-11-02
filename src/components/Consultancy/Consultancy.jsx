@@ -11,6 +11,8 @@ const Consultancy = () => {
       <div className="container section_padding pb-0">
         <div className="row align-items-center">
           <div className="col-lg-6">
+            <div className="mb-4 mb-lg-0">
+
             <h2 className="fs_48 about_text blue">Consultancy</h2>
             <div className="consultancy_small_text black">
               <p>
@@ -27,9 +29,11 @@ const Consultancy = () => {
               </p>
             </div>
             <ContactUsButton />
+            </div>
           </div>
           <div className="col-lg-6">
-            <div className="consultancy_right">
+
+            <div className="consultancy_right mb-4 mb-lg-0">
               <img className="img-fluid" src={c1} alt="" />
 
               <div className="time_design">
@@ -39,12 +43,20 @@ const Consultancy = () => {
 
               <div className="row mt-3 pe-0 ps-0">
                 <div className="col-lg-6 pe-0 ps-0 ps-lg-3 ">
+                  <div className="mb-4 mb-lg-0 text-center">
+
                   <img className="img-fluid" src={c2} alt="" />
+                  </div>
                 </div>
+
                 <div className="col-lg-6 pe-0 ps-0 ">
+                  <div className="mb-4 mb-lg-0 text-center">
+
                   <img className="img-fluid" src={c3} alt="" />
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>

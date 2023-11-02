@@ -7,7 +7,7 @@ import Protection from "./Protection";
 const OurProduct = () => {
   return (
     <>
-      <PageHeader />
+      <PageHeader pageHeaderName={"Our Product"} />
       <div className="container">
         <Moderation />
         <Flagging />

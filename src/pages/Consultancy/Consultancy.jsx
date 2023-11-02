@@ -13,7 +13,7 @@ import Succeed from "./Succeed";
 const Consultancy = () => {
   return (
     <>
-      <PageHeader />
+      <PageHeader pageHeaderName={"Consultancy"} />
       <section className="text-center">
         <div className="container">
           <div className="consultancy_section1">

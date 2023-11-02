@@ -11,12 +11,21 @@
     padding-bottom: 150px;
 }
 
+
 .about_wrapper3 {
     background-image: url('../../assets/section4_about_frame.png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     margin-top: 140px;
     padding-top: 120px;
     padding-bottom: 150px;
+}
+
+@media(max-width: 550px) {
+    .about_wrapper2, .about_wrapper3{
+        margin-top: 80px;
+    }
 }
 
 .sec1_about p {

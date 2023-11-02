@@ -1,14 +1,14 @@
 import React from "react";
 import "./PageHeader.css";
 import { Link, useLocation, useParams } from "react-router-dom";
-const PageHeader = () => {
+const PageHeader = ({ pageHeaderName, pageHeaderName2 }) => {
   const location = useLocation();
   const currentLocation = location.pathname.slice(1);
   return (
     <>
       <div className="page_banner text-center white_color">
         <h1 className="about_text1 mb-3">
-          About <span className="white_color">Us</span>
+          {pageHeaderName} <span className="white_color">{pageHeaderName2}</span>
         </h1>
 
         <nav aria-label="breadcrumb ">

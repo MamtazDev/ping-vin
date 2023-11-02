@@ -4,11 +4,11 @@ import PageHeader from './../PageHeader/PageHeader';
 const BrandProtection = () => {
     return (
         <>
-        <PageHeader/>
-        <div className="container">
-            
-        </div>
-            
+            <PageHeader pageHeaderName={"Brand Protection"} />
+            <div className="container">
+
+            </div>
+
         </>
     );
 };
