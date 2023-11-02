@@ -14,8 +14,8 @@ const WhatCanHelp = () => {
           </div>
           <div className="row">
             <div className="col-lg-4">
-              <div className="card_bg mb-lg-0 mb-4">
-                <div className="icon_bg">
+              <div className="card_design mb-lg-0 mb-4">
+                <div className="icon_bg2">
                   <img className="img-fluid" src={c1} alt="send-icon" />
                 </div>
 
@@ -26,18 +26,26 @@ const WhatCanHelp = () => {
                 </small>
               </div>
             </div>
+
             <div className="col-lg-4">
+
               <div className="card_design mb-lg-0 mb-4">
+
                 <div className="icon_bg2">
                   <img className="img-fluid" src={c2} alt="send-icon" />
                 </div>
+
                 <p className="fs_24 blue">Conversion rate</p>
+
                 <small className="fs_18 grey">
                   Our Localisation Specialists will help you tailor your website
                   to fit local standards and meet customers expectations.
                 </small>
+
               </div>
+
             </div>
+
             <div className="col-lg-4">
               <div className="card_design mb-lg-0 mb-4">
                 <div className="icon_bg2">
