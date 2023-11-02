@@ -13,7 +13,7 @@ const Banner = () => {
               <span className="yellow"> moderation.</span>
             </h1>
 
-            <p className="white_color mb-2" data-aos="fade-up" data-aos-delay="400">
+            <p className="white_color banner_p" data-aos="fade-up" data-aos-delay="400">
               We are the start-up who build a moderation engine capable of
               flagging millions of illegal websites. With the goal of protecting
               our communities and children from harmful and disturbing content,
