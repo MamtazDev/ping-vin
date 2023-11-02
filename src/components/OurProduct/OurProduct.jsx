@@ -7,7 +7,7 @@ const OurProduct = () => {
     <section className="our_product">
       <div className="container">
         <div className="section_heading text-center pb_60">
-          <h1 className="about_text mb-4" data-aos="fade-up">
+          <h1 className="about_text mb-4 black" data-aos="fade-up">
             Our <span className="yellow">Product</span>
           </h1>
 

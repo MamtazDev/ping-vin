@@ -12,7 +12,7 @@ const Banner = () => {
               The start-up specialized in mass
               <span className="yellow"> moderation.</span>
             </h1>
-            <p className="white_color mb-2">
+            <p className="white_color banner_p">
               We are the start-up who build a moderation engine capable of
               flagging millions of illegal websites. With the goal of protecting
               our communities and children from harmful and disturbing content,
@@ -21,7 +21,7 @@ const Banner = () => {
               engine will be available for public use on our upcoming website
               for 2024.
             </p>
-            <br />
+      
             <ContactUsButton />
           </div>
 
