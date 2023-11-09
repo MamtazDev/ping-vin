@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Banner.css";
 import ContactUsButton from "../../Shared/ContactUsButton/ContactUsButton";
+import videoSource from "../../assets/video.mp4";
+import { BsPause, BsPlay } from "react-icons/bs";
 
 const Banner = () => {
+  const videoRef = useRef(null);
+
+  const handlePlayPause = () => {
+    if (videoRef.current.paused) {
+      videoRef.current.play();
+    } else {
+      videoRef.current.pause();
+    }
+  };
   return (
     <section className="banner_bg">
       <div className="container">
@@ -27,13 +38,21 @@ const Banner = () => {
           </div>
 
           <div className="col-lg-5 offset-lg-1 banner_right " data-aos="fade-left">
-            <h3 className="fs_32">Moderering Beta</h3>
-            <input type="text" /> <br />
-            <button className="fs_16 black2 search_btn ">Search</button>
-            <p className="p_86 mt-4 fs_14">
-              No result found. either we do not handle this industry yet or you
-              made a typo =)
-            </p>
+            {/* video goes to here */}
+
+
+              <video ref={videoRef} controls width="100%" height="auto">
+                <source src={videoSource} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+
+              {/* <button onClick={handlePlayPause}>
+                {videoRef.current && videoRef.current.paused ? <BsPlay color="red" /> : <BsPause color="green" />}
+              </button> */}
+
+
+
+
           </div>
         </div>
       </div>
